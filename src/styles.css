@@ -1,0 +1,80 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.btn-container {
+  text-align: left;
+}
+
+input.btn {
+  background: steelblue;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.form {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 70%;
+}
+
+.form-input {
+  margin: 20px 0;
+}
+.form-input label {
+  display: block;
+  font-weight: bold;
+  text-align: left;
+}
+.form-input input {
+  height: 40px;
+  width: 100%;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+table.loanList {
+  display: block;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 70%;
+  text-align: left;
+}
+
+th {
+  border: none;
+
+  background-color: #a3a3a3;
+  width: 25%;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fff;
+  border: 1px solid #a3a3a3;
+  padding: 5px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ddd;
+  border: 1px solid #a3a3a3;
+  padding: 5px;
+}
+
+td button {
+  background: red;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin: 5px;
+}
